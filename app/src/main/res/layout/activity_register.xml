@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/userImage"
+                android:src="@drawable/user"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttons"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:id="@+id/choseimageBtn"
+                android:text="Chose Profile Image"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameinput"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:hint="Enter Your Full Name"
+                android:ems="10"
+                android:background="@drawable/input"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/emailinput"
+                android:background="@drawable/input"
+                android:ems="10"
+                android:hint="Enter Email"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:inputType="textPassword"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:ems="10"
+                android:id="@+id/passinput"
+                android:hint="Enter Password"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/confirmpassinput"
+                android:inputType="textPassword"
+                android:background="@drawable/input"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:ems="10"
+                android:hint="Confirm Password"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/regibtn"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/buttons"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:text="Register"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+</RelativeLayout>

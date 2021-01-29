@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "469114487431",
+    "project_id": "programming-hub-e55ae",
+    "storage_bucket": "programming-hub-e55ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469114487431:android:f38b13595e0a8a4aaaae22",
+        "android_client_info": {
+          "package_name": "com.hub.programminghub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469114487431-uncr0k6e5qck7hbv0d0gsdtek0j17srf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBskn-2W9uPK-oKeNAq6-n18q5YrCc0NI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469114487431-uncr0k6e5qck7hbv0d0gsdtek0j17srf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
