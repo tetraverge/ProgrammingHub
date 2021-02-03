@@ -6,10 +6,18 @@
     <group android:checkableBehavior="single">
 
         <item
-            android:id="@+id/nav_share_event"
+            android:id="@+id/nav_favourite"
             android:icon="@mipmap/ic_launcher"
-            android:title="Saved Code" />
+            android:title="Favourite Code" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/ic_launcher"
+            android:title="About Us" />
 
+        <item
+            android:id="@+id/nav_progress"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Progress" />
         <item
             android:id="@+id/nav_register"
             android:icon="@drawable/ic_launcher_background"
@@ -20,8 +28,6 @@
             android:icon="@mipmap/ic_launcher"
             android:title="Logout" />
 
-
     </group>
-
 
 </menu>

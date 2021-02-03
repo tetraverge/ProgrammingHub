@@ -69,6 +69,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             senduserTologin();
 
         }
+        else if (id==R.id.nav_favourite){
+
+        }
+        else if (id==R.id.nav_about){
+
+        }
+        else if (id==R.id.nav_progress){
+
+        }
         else if (id == R.id.nav_logout) {
             mAuth.signOut();
             Toast.makeText(this,"Logout Successful",Toast.LENGTH_LONG).show(); //logout mathode

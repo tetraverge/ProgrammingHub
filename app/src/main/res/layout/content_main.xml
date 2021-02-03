@@ -25,10 +25,11 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/btnOne"
+                android:background="@drawable/mobileapp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="Java "
+                android:text="C "
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"></Button>
@@ -36,11 +37,13 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:background="@drawable/mobileapp"
+
                 android:id="@+id/btnTwo"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="C"
+                android:text="C++"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"></Button>
@@ -55,6 +58,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:background="@drawable/mobileapp"
                 android:id="@+id/btnThree"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
@@ -67,11 +71,13 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:background="@drawable/mobileapp"
+
                 android:id="@+id/btnFive"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text=".net"
+                android:text="JAVA"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"></Button>
@@ -90,8 +96,10 @@
                 android:id="@+id/btnSix"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/mobileapp"
+
                 android:padding="10dp"
-                android:text="Kotlin"
+                android:text="Tutorial"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"></Button>
@@ -101,9 +109,10 @@
                 android:layout_height="match_parent"
                 android:id="@+id/btnFour"
                 android:layout_margin="5dp"
+                android:background="@drawable/mobileapp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="Contact Us"
+                android:text="Books"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"></Button>
