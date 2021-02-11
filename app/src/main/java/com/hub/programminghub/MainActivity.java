@@ -83,10 +83,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             Toast.makeText(this,"Logout Successful",Toast.LENGTH_LONG).show(); //logout mathode
             senduserTologin();
         }
+        else if (id==R.id.nav_addcode){
+            senduserToadcode();
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void senduserToadcode() {
+
+        Intent intent = new Intent(MainActivity.this, ImportData.class);
+        startActivity(intent);
     }
 
     private void senduserTologin() {

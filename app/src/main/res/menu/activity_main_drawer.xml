@@ -28,6 +28,11 @@
             android:icon="@mipmap/ic_launcher"
             android:title="Logout" />
 
+        <item
+            android:id="@+id/nav_addcode"
+            android:icon="@mipmap/ic_launcher"
+            android:title="add code" />
+
     </group>
 
 </menu>
