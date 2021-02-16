@@ -110,7 +110,6 @@ public class ImportData extends AppCompatActivity implements AdapterView.OnItemS
             public void onComplete(Task task) {
                 Toast.makeText(ImportData.this,"Post Successful",Toast.LENGTH_LONG).show();
                 loadingbar.dismiss();
-
                 titleinput.setText("");
                 codeinput.setText("");
                 resultinput.setText("");

@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,13 +27,16 @@ import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
     private FirebaseAuth mAuth;
     private DatabaseReference userRef;
     private CircleImageView profilenavimage;
     private TextView prifilenavname;
     String currentuserid;
+
+    Button cbutton, cplusbutton, javabutton,pythonebutton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +45,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        cbutton = (Button) findViewById(R.id.btnOne);
+        cplusbutton = (Button) findViewById(R.id.btnTwo);
+        pythonebutton = (Button) findViewById(R.id.btnThree);
+        javabutton = (Button) findViewById(R.id.btnFour);
+
+        cbutton.setOnClickListener(this);
+        cplusbutton.setOnClickListener(this);
+        pythonebutton.setOnClickListener(this);
+        javabutton.setOnClickListener(this);
 
         mAuth = FirebaseAuth.getInstance(); //firebase authentication
         userRef = FirebaseDatabase.getInstance().getReference().child("Users"); // firebase database
@@ -148,4 +161,27 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
 
+    @Override
+    public void onClick(View view) {
+        if (view ==cbutton){
+            Intent intent = new Intent(MainActivity.this, CodeView_Activity.class);
+            intent.putExtra("DATA_ID","C");
+            startActivity(intent);
+
+        }else if (view==cplusbutton){
+            Intent intent = new Intent(MainActivity.this, CodeView_Activity.class);
+            intent.putExtra("DATA_ID","C++");
+            startActivity(intent);
+        }
+        else if (view==pythonebutton){
+            Intent intent = new Intent(MainActivity.this, CodeView_Activity.class);
+            intent.putExtra("DATA_ID","Python");
+            startActivity(intent);
+        }
+        else if (view==javabutton){
+            Intent intent = new Intent(MainActivity.this, CodeView_Activity.class);
+            intent.putExtra("DATA_ID","Java");
+            startActivity(intent);
+        }
+    }
 }

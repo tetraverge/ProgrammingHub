@@ -73,7 +73,7 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/mobileapp"
 
-                android:id="@+id/btnFive"
+                android:id="@+id/btnFour"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:padding="10dp"
@@ -93,7 +93,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/btnSix"
+                android:id="@+id/btnFive"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/mobileapp"
@@ -107,7 +107,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/btnFour"
+                android:id="@+id/btnSix"
                 android:layout_margin="5dp"
                 android:background="@drawable/mobileapp"
                 android:layout_weight="1"

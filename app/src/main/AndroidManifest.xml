@@ -14,7 +14,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ImportData"></activity>
+        <activity android:name=".Code_DetailsView_Activity"></activity>
+        <activity android:name=".CodeView_Activity" />
+        <activity android:name=".ImportData" />
         <activity android:name=".Login_Activity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity">
