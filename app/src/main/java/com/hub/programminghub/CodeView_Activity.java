@@ -67,8 +67,15 @@ public class CodeView_Activity extends AppCompatActivity {
 
                 final DataManager idsofcode = codeslist.get(position);
                 codepostid = idsofcode.getPostid();
+                String title = idsofcode.getCodetitle();
+                String inputcode = idsofcode.getCode();
+                String outputcode = idsofcode.getCoderesult();
+                String codedescription = idsofcode.getCodedescription();
                 Intent intent = new Intent(CodeView_Activity.this, Code_DetailsView_Activity.class);
-                intent.putExtra("DATA_ID",codepostid);
+                intent.putExtra("DATA_TITEL",title);
+                intent.putExtra("DATA_INPUT",inputcode);
+                intent.putExtra("DATA_OUTPUT",outputcode);
+                intent.putExtra("DATA_DESCRIPTION",codedescription);
                 startActivity(intent);
 
                 Log.i("this is", codepostid);
