@@ -102,8 +102,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             Toast.makeText(this,"Logout Successful",Toast.LENGTH_LONG).show(); //logout mathode
             senduserTologin();
         }
-        else if (id==R.id.nav_addcode){
-            senduserToadcode();
+        else if (id==R.id.nav_share){
+        sharebutton();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -189,5 +189,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             intent.putExtra("DATA_ID","Java");
             startActivity(intent);
         }
+    }
+
+    private void sharebutton() {
+        Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+        sharingIntent.setType("text/plain");
+        String shareBody = "Programming Hub Android App";
+        sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Programming Hub Android App");
+        sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+        startActivity(Intent.createChooser(sharingIntent, "Share via"));
     }
 }

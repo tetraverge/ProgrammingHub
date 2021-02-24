@@ -25,11 +25,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/btnOne"
+                android:drawableTop="@mipmap/logo"
                 android:background="@drawable/mobileapp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="C "
+                android:text="C \n Programming"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"></Button>
@@ -43,7 +44,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="C++"
+                android:text="C++ Programming"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"></Button>
@@ -63,7 +64,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="Python"
+                android:text="Python Programming"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"></Button>
@@ -72,12 +73,11 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/mobileapp"
-
                 android:id="@+id/btnFour"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="JAVA"
+                android:text="JAVA Programming"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"></Button>
@@ -99,7 +99,7 @@
                 android:background="@drawable/mobileapp"
 
                 android:padding="10dp"
-                android:text="Tutorial"
+                android:text="Video Tutorial"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"></Button>
