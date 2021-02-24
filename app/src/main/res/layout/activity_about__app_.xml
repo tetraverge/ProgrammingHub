@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_App_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+The Main Motive of this app to provide you all basic programming knowledge at one platform. In this app you find all basic code of C, C++, Java and Python along with compiler and video tutorial. But if you think that this app should contain some other feature then you can suggest us.
+In this app we are not allowed any popup ad while on reading so you can read without any problem."
+        android:gravity="center"
+        android:textSize="28dp"></TextView>
+    </LinearLayout>
+</RelativeLayout>

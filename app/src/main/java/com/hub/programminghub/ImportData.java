@@ -22,7 +22,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class ImportData extends AppCompatActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
-    String item;
+    String languageName;
     EditText titleinput, codeinput, resultinput, descriptioninput;
     Button sbbutton;
     private DatabaseReference postdbref;
@@ -34,6 +34,7 @@ public class ImportData extends AppCompatActivity implements AdapterView.OnItemS
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_import_data);
+        
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
         titleinput = (EditText) findViewById(R.id.event_title);
         codeinput = (EditText) findViewById(R.id.event_code);
@@ -67,10 +68,10 @@ public class ImportData extends AppCompatActivity implements AdapterView.OnItemS
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-         item = parent.getItemAtPosition(position).toString();
+         languageName = parent.getItemAtPosition(position).toString();
 
         // Showing selected spinner item
-        Toast.makeText(parent.getContext(), "Selected: " + item, Toast.LENGTH_LONG).show();
+        Toast.makeText(parent.getContext(), "Selected: " + languageName, Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -105,7 +106,7 @@ public class ImportData extends AppCompatActivity implements AdapterView.OnItemS
         postHash.put("codedescription",codedescription);
         postHash.put("postid",postid);
 
-        postdbref.child(item).child(postid).updateChildren(postHash).addOnCompleteListener(new OnCompleteListener() {
+        postdbref.child(languageName).child(postid).updateChildren(postHash).addOnCompleteListener(new OnCompleteListener() {
             @Override
             public void onComplete(Task task) {
                 Toast.makeText(ImportData.this,"Post Successful",Toast.LENGTH_LONG).show();

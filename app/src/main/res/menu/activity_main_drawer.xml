@@ -13,6 +13,10 @@
             android:id="@+id/nav_about"
             android:icon="@mipmap/ic_launcher"
             android:title="About Us" />
+        <item
+            android:id="@+id/nav_about_app"
+            android:icon="@mipmap/ic_launcher"
+            android:title="About App" />
 
         <item
             android:id="@+id/nav_progress"

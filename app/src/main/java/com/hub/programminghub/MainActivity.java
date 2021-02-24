@@ -86,7 +86,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         }
         else if (id==R.id.nav_about){
+            Intent intent = new Intent(MainActivity.this, About_Us.class);
+            startActivity(intent);
 
+        }
+        else if (id==R.id.nav_about_app){
+            Intent intent = new Intent(MainActivity.this, About_App_Activity.class);
+            startActivity(intent);
         }
         else if (id==R.id.nav_progress){
 
