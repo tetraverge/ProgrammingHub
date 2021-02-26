@@ -14,7 +14,13 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Video_Tutorials"></activity>
+        <activity android:name=".Java_Intro" />
+        <activity android:name=".Pythone_Intro" />
+        <activity android:name=".Cplus_Intro" />
+        <activity android:name=".C_Intro" />
+        <activity android:name=".Introduction_Activity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".About_App_Activity" />
         <activity android:name=".About_Us" />
         <activity android:name=".Code_DetailsView_Activity" />

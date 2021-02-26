@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private TextView prifilenavname;
     String currentuserid;
 
-    Button cbutton, cplusbutton, javabutton,pythonebutton;
+    Button cbutton, cplusbutton, javabutton,pythonebutton, videobutton, booksbutton;
 
 
     @Override
@@ -49,11 +49,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         cplusbutton = (Button) findViewById(R.id.btnTwo);
         pythonebutton = (Button) findViewById(R.id.btnThree);
         javabutton = (Button) findViewById(R.id.btnFour);
+        videobutton = (Button) findViewById(R.id.btnFive);
+        booksbutton = (Button) findViewById(R.id.btnSix);
 
         cbutton.setOnClickListener(this);
         cplusbutton.setOnClickListener(this);
         pythonebutton.setOnClickListener(this);
         javabutton.setOnClickListener(this);
+        videobutton.setOnClickListener(this);
+        booksbutton.setOnClickListener(this);
 
         mAuth = FirebaseAuth.getInstance(); //firebase authentication
         userRef = FirebaseDatabase.getInstance().getReference().child("Users"); // firebase database
@@ -83,6 +87,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         }
         else if (id==R.id.nav_favourite){
+
+        }
+        else if (id==R.id.nav_introduction){
 
         }
         else if (id==R.id.nav_about){
@@ -188,6 +195,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             Intent intent = new Intent(MainActivity.this, CodeView_Activity.class);
             intent.putExtra("DATA_ID","Java");
             startActivity(intent);
+        }
+        else if (view==videobutton){
+            Intent intent = new Intent(MainActivity.this, Video_Tutorials.class);
+            startActivity(intent);
+        }
+        else if (view==booksbutton){
+
         }
     }
 

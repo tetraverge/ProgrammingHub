@@ -37,7 +37,8 @@ public class CodeView_Activity extends AppCompatActivity {
         Intent i =getIntent();
         getCodeId = i.getStringExtra("DATA_ID");
 
-        if (getCodeId.equals("C")){
+        if (getCodeId.equals("C"))
+        {
             CodeDBRef = FirebaseDatabase.getInstance().getReference().child("C");
         }
         else if (getCodeId.equals("C++"))

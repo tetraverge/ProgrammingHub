@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Video_Tutorials">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C Tutorial Bangla"
+            android:id="@+id/cbangla">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C Tutorial English"
+            android:id="@+id/cenglish">
+        </Button> <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C ++ Tutorial Bangla"
+        android:id="@+id/cpusbangla">
+    </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C ++ Tutorial English"
+            android:id="@+id/cplusenglish">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Python Tutorial Bangla"
+            android:id="@+id/pythonbangal">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pythone Tutorial English"
+            android:id="@+id/pythonenglish">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java Tutorial Bangla"
+            android:id="@+id/javabangla">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java Tutorial English"
+            android:id="@+id/javaenglish">
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
