@@ -29,18 +29,18 @@ public class Compiler_Activity extends AppCompatActivity implements View.OnClick
     @Override
     public void onClick(View view) {
         if (view ==cbutton){
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://repl.it/new/c"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://repl.it/languages/c"));
             startActivity(browserIntent);
         }else if (view==cplusbutton){
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://repl.it/new/cpp"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://repl.it/languages/cpp"));
             startActivity(browserIntent);
         }
         else if (view==pythonebutton){
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://repl.it/new/python3"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://repl.it/languages/python3"));
             startActivity(browserIntent);
         }
         else if (view==javabutton){
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://repl.it/new/java10"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://repl.it/languages/java10"));
             startActivity(browserIntent);
         }
     }
