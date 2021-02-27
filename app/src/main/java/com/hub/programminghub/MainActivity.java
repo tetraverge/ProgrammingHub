@@ -203,7 +203,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(intent);
         }
         else if (view==booksbutton){
-
+            Intent intent = new Intent(MainActivity.this, Books.class);
+            startActivity(intent);
         }
     }
 
