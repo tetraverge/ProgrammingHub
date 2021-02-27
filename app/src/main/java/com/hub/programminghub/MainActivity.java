@@ -86,11 +86,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             senduserTologin();
 
         }
-        else if (id==R.id.nav_favourite){
-
+        else if (id==R.id.nav_compiler){
+            Intent intent = new Intent(MainActivity.this, Compiler_Activity.class);
+            startActivity(intent);
         }
         else if (id==R.id.nav_introduction){
-
+            Intent intent = new Intent(MainActivity.this, Introduction_Activity.class);
+            startActivity(intent);
         }
         else if (id==R.id.nav_about){
             Intent intent = new Intent(MainActivity.this, About_Us.class);

@@ -11,9 +11,9 @@
             android:title="Introduction" />
 
         <item
-            android:id="@+id/nav_favourite"
+            android:id="@+id/nav_compiler"
             android:icon="@mipmap/ic_launcher"
-            android:title="Favourite Code" />
+            android:title="compiler" />
         <item
             android:id="@+id/nav_about"
             android:icon="@mipmap/ic_launcher"
