@@ -104,13 +104,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             Intent intent = new Intent(MainActivity.this, About_App_Activity.class);
             startActivity(intent);
         }
-        else if (id==R.id.nav_progress){
 
-        }
         else if (id == R.id.nav_logout) {
             mAuth.signOut();
             Toast.makeText(this,"Logout Successful",Toast.LENGTH_LONG).show(); //logout mathode
             senduserTologin();
+        }
+        else if (id == R.id.nav_favourite) {
+            Intent intent = new Intent(MainActivity.this, FavouriteCode_Activity.class);
+            startActivity(intent);
         }
         else if (id==R.id.nav_share){
         sharebutton();

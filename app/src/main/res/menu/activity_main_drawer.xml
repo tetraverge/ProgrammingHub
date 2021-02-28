@@ -15,14 +15,15 @@
             android:icon="@mipmap/ic_launcher"
             android:title="About Us" />
         <item
+            android:id="@+id/nav_favourite"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Favourite Code" />
+
+        <item
             android:id="@+id/nav_about_app"
             android:icon="@mipmap/ic_launcher"
             android:title="About App" />
 
-        <item
-            android:id="@+id/nav_progress"
-            android:icon="@mipmap/ic_launcher"
-            android:title="Progress" />
         <item
             android:id="@+id/nav_register"
             android:icon="@drawable/ic_launcher_background"

@@ -16,7 +16,7 @@ public class Video_Tutorials extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video__tutorials);
         cb = (Button) findViewById(R.id.cbangla);
-        ce = (Button) findViewById(R.id.cbangla);
+        ce = (Button) findViewById(R.id.cenglish);
         cpb = (Button) findViewById(R.id.cpusbangla);
         cpe = (Button) findViewById(R.id.cplusenglish);
         pb = (Button) findViewById(R.id.pythonbangal);
@@ -40,31 +40,31 @@ public class Video_Tutorials extends AppCompatActivity implements View.OnClickLi
     public void onClick(View view) {
 
         if (view==cb){
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLgH5QX0i9K3pCMBZcul1fta6UivHDbXvz\n" +
-                    "\n"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLgH5QX0i9K3pCMBZcul1fta6UivHDbXvz"
+                    ));
             startActivity(browserIntent);
         }else if (view==ce) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR\n"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR"));
             startActivity(browserIntent);
         }
-        else if (view==ce) {
+        else if (view==cpb) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLgH5QX0i9K3q0ZKeXtF--CZ0PdH1sSbYL"));
             startActivity(browserIntent);
         }
-        else if (view==ce) {
+        else if (view==cpe) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C"));
             startActivity(browserIntent);
         }
-        else if (view==ce) {
+        else if (view==pb) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLgH5QX0i9K3oAZUB2QXR-dZac0c9HNyRa"));
             startActivity(browserIntent);
-        }else if (view==ce) {
+        }else if (view==pe) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK"));
             startActivity(browserIntent);
-        }else if (view==ce) {
+        }else if (view==jb) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("hhttps://youtube.com/playlist?list=PLgH5QX0i9K3rz5XqMsTk41_j15_6682BN"));
             startActivity(browserIntent);
-        }else if (view==ce) {
+        }else if (view==je) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU"));
             startActivity(browserIntent);
         }

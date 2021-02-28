@@ -16,23 +16,27 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
             android:text="C Tutorial Bangla"
             android:id="@+id/cbangla">
         </Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
             android:text="C Tutorial English"
             android:id="@+id/cenglish">
         </Button> <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
         android:text="C ++ Tutorial Bangla"
         android:id="@+id/cpusbangla">
     </Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
             android:text="C ++ Tutorial English"
             android:id="@+id/cplusenglish">
         </Button>
@@ -40,24 +44,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Python Tutorial Bangla"
+            android:background="@color/colorPrimary"
             android:id="@+id/pythonbangal">
         </Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Pythone Tutorial English"
+            android:background="@color/colorPrimary"
             android:id="@+id/pythonenglish">
         </Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Java Tutorial Bangla"
+            android:background="@color/colorPrimary"
             android:id="@+id/javabangla">
         </Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Java Tutorial English"
+            android:background="@color/colorPrimary"
             android:id="@+id/javaenglish">
         </Button>
 

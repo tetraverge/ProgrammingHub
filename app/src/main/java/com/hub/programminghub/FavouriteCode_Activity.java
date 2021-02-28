@@ -8,7 +8,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -16,51 +19,28 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
-public class CodeView_Activity extends AppCompatActivity {
+public class FavouriteCode_Activity extends AppCompatActivity {
 
     private ListView codetitlelistview;
-    private DatabaseReference CodeDBRef;
+    private DatabaseReference CodeDBRef, favouriteEventDBREF;
     private String userCurrentId;
     private List<DataManager> codeslist;
     private String codepostid;
-
+    private FirebaseAuth mAuth;
+    private FirebaseUser currentuser;
     String getCodeId;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_code_view_);
-        CodeDBRef = FirebaseDatabase.getInstance().getReference();
+        setContentView(R.layout.activity_favourite_code_);
 
-        Intent i =getIntent();
-        getCodeId = i.getStringExtra("DATA_ID");
-
-        if (getCodeId.equals("C"))
-        {
-            CodeDBRef = FirebaseDatabase.getInstance().getReference().child("C");
-        }
-        else if (getCodeId.equals("C++"))
-        {
-            CodeDBRef = FirebaseDatabase.getInstance().getReference().child("C++");
-        }
-        else if (getCodeId.equals("Python"))
-        {
-            CodeDBRef = FirebaseDatabase.getInstance().getReference().child("Python");
-        }
-        else if (getCodeId.equals("Java"))
-        {
-            CodeDBRef = FirebaseDatabase.getInstance().getReference().child("Java");
-        }
-
+        favouriteEventDBREF = FirebaseDatabase.getInstance().getReference().child("Favourite");
+        mAuth = FirebaseAuth.getInstance();
 
         codetitlelistview = (ListView) findViewById(R.id.codeTitleListView);
-
         codeslist = new ArrayList<>();
-
-        adaptersetup();
-
         codetitlelistview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -72,7 +52,7 @@ public class CodeView_Activity extends AppCompatActivity {
                 String inputcode = idsofcode.getCode();
                 String outputcode = idsofcode.getCoderesult();
                 String codedescription = idsofcode.getCodedescription();
-                Intent intent = new Intent(CodeView_Activity.this, Code_DetailsView_Activity.class);
+                Intent intent = new Intent(FavouriteCode_Activity.this, Code_DetailsView_Activity.class);
                 intent.putExtra("DATA_ID",codepostid);
                 intent.putExtra("DATA_TITEL",title);
                 intent.putExtra("DATA_INPUT",inputcode);
@@ -83,10 +63,27 @@ public class CodeView_Activity extends AppCompatActivity {
                 Log.i("this is", codepostid);
             }
         });
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        currentuser = mAuth.getCurrentUser();
+
+        if (currentuser==null)
+        {
+            Toast.makeText(FavouriteCode_Activity.this,"You are Not Logged In Please Login or Register",Toast.LENGTH_LONG).show();
+        }
+        else
+        {
+            userCurrentId = mAuth.getCurrentUser().getUid();
+            adaptersetup();
+        }
     }
 
     public void adaptersetup(){
-        CodeDBRef.addValueEventListener(new ValueEventListener() {
+        favouriteEventDBREF.orderByChild("userid").equalTo(userCurrentId).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
@@ -97,7 +94,7 @@ public class CodeView_Activity extends AppCompatActivity {
                         DataManager alleventdata = usersnapshot.getValue(DataManager.class);
                         codeslist.add(alleventdata);
                     }
-                    CodeView_List_Adapter adapter = new CodeView_List_Adapter(CodeView_Activity.this, codeslist);
+                    CodeView_List_Adapter adapter = new CodeView_List_Adapter(FavouriteCode_Activity.this, codeslist);
                     codetitlelistview.setAdapter(adapter);
 
                 } catch (Exception e)
