@@ -14,14 +14,33 @@
         android:orientation="vertical">
 
 
+        <ImageView
+            android:id="@+id/textV2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/hublogo"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"
+            android:text="Programming Hub"
+            android:gravity="center"
+            android:textSize="28dp"></TextView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
         android:text="
 The Main Motive of this app to provide you all basic programming knowledge at one platform. In this app you find all basic code of C, C++, Java and Python along with compiler and video tutorial. But if you think that this app should contain some other feature then you can suggest us.
 In this app we are not allowed any popup ad while on reading so you can read without any problem."
         android:gravity="center"
-        android:textSize="28dp"></TextView>
+        android:textSize="18dp"></TextView>
     </LinearLayout>
 </RelativeLayout>

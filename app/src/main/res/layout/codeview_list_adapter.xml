@@ -7,13 +7,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/countTv"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:text="100"
+            android:textSize="20dp"></TextView>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/code_titleTV"
             android:gravity="center"
+            android:textSize="20dp"
             android:text="date"
             android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@android:drawable/star_big_on"></ImageView>
     </LinearLayout>
 </RelativeLayout>

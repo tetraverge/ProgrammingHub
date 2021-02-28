@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private TextView prifilenavname;
     String currentuserid;
 
-    Button cbutton, cplusbutton, javabutton,pythonebutton, videobutton, booksbutton;
+    Button cbutton, cplusbutton, javabutton,pythonebutton, videobutton, booksbutton,btncompile,btnquiz;
 
 
     @Override
@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         javabutton = (Button) findViewById(R.id.btnFour);
         videobutton = (Button) findViewById(R.id.btnFive);
         booksbutton = (Button) findViewById(R.id.btnSix);
+        btncompile = (Button) findViewById(R.id.btncompiler);
+        btnquiz = (Button) findViewById(R.id.btnquize);
 
         cbutton.setOnClickListener(this);
         cplusbutton.setOnClickListener(this);
@@ -58,6 +60,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         javabutton.setOnClickListener(this);
         videobutton.setOnClickListener(this);
         booksbutton.setOnClickListener(this);
+        btncompile.setOnClickListener(this);
+        btnquiz.setOnClickListener(this);
 
         mAuth = FirebaseAuth.getInstance(); //firebase authentication
         userRef = FirebaseDatabase.getInstance().getReference().child("Users"); // firebase database
@@ -86,10 +90,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             senduserTologin();
 
         }
-        else if (id==R.id.nav_compiler){
-            Intent intent = new Intent(MainActivity.this, Compiler_Activity.class);
-            startActivity(intent);
-        }
+
         else if (id==R.id.nav_introduction){
             Intent intent = new Intent(MainActivity.this, Introduction_Activity.class);
             startActivity(intent);
@@ -204,6 +205,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         else if (view==booksbutton){
             Intent intent = new Intent(MainActivity.this, Books.class);
+            startActivity(intent);
+        }
+
+        else if (view==btncompile){
+            Intent intent = new Intent(MainActivity.this, Compiler_Activity.class);
+            startActivity(intent);
+        }
+        else if (view==btnquiz){
+            Intent intent = new Intent(MainActivity.this, Books_Activity.class);
             startActivity(intent);
         }
     }
