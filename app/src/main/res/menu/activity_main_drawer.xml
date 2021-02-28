@@ -39,6 +39,11 @@
             android:icon="@mipmap/ic_launcher"
             android:title="Share" />
 
+        <item
+            android:id="@+id/nav_reference"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Reference" />
+
     </group>
 
 </menu>

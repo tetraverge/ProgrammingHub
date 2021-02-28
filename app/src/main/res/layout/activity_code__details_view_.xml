@@ -30,6 +30,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
             android:text="Input Code"
             android:textSize="20dp">
         </TextView>
@@ -37,6 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/inputCode"
+            android:textColor="@color/white"
             android:padding="5dp"
             android:background="@color/gray"
             android:textSize="20dp">
@@ -45,12 +47,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Output Code"
+            android:background="@color/colorPrimary"
             android:textSize="20dp">
         </TextView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/outPutCode"
+            android:textColor="@color/white"
             android:padding="5dp"
             android:background="@color/gray"
             android:textSize="20dp">
@@ -60,12 +64,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Code Description"
+            android:background="@color/colorPrimary"
             android:textSize="20dp">
         </TextView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/codeDescription"
+            android:textColor="@color/white"
             android:padding="5dp"
             android:background="@color/gray"
             android:textSize="20dp">

@@ -36,6 +36,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:padding="5dp"
         android:text="
 The Main Motive of this app to provide you all basic programming knowledge at one platform. In this app you find all basic code of C, C++, Java and Python along with compiler and video tutorial. But if you think that this app should contain some other feature then you can suggest us.

@@ -17,23 +17,25 @@
             android:gravity="center"
             android:layout_gravity="center"
             android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="C Programming Introduction">
+
+            </TextView>
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="C is a general-purpose high level language that was originally developed by Dennis Ritchie for the Unix operating system. It was first implemented on the Digital Eqquipment Corporation PDP-11 computer in 1972.
-
-The Unix operating system and virtually all Unix applications are written in the C language. C has now become a widely used professional language for various reasons.
-
-Easy to learn
-
-Structured language
-
-It produces efficient programs.
-
-It can handle low-level activities.
-
-It can be compiled on a variety of computers.">
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:id="@+id/cintro"
+                android:layout_margin="10dp">
 
             </TextView>
 

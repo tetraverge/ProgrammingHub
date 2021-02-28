@@ -7,6 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".Video_Tutorials">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,27 +19,31 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/buttons"
+            android:layout_margin="20dp"
             android:text="C Tutorial Bangla"
             android:id="@+id/cbangla">
         </Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/buttons"
+            android:layout_margin="20dp"
             android:text="C Tutorial English"
             android:id="@+id/cenglish">
         </Button> <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/buttons"
+        android:layout_margin="20dp"
         android:text="C ++ Tutorial Bangla"
         android:id="@+id/cpusbangla">
     </Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/buttons"
+            android:layout_margin="20dp"
             android:text="C ++ Tutorial English"
             android:id="@+id/cplusenglish">
         </Button>
@@ -44,28 +51,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Python Tutorial Bangla"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/buttons"
+            android:layout_margin="20dp"
             android:id="@+id/pythonbangal">
         </Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Pythone Tutorial English"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/buttons"
+            android:layout_margin="20dp"
             android:id="@+id/pythonenglish">
         </Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Java Tutorial Bangla"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/buttons"
+            android:layout_margin="20dp"
             android:id="@+id/javabangla">
         </Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Java Tutorial English"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/buttons"
+            android:layout_margin="20dp"
             android:id="@+id/javaenglish">
         </Button>
 
@@ -73,6 +84,6 @@
 
 
     </LinearLayout>
-
+    </ScrollView>
 
 </RelativeLayout>

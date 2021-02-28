@@ -24,7 +24,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/btnOne"
 
-                android:background="@drawable/mobileapp"
+                android:background="#8e24aa"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:padding="10dp"
@@ -36,7 +36,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:background="@drawable/mobileapp"
+                android:background="#ec407a"
                 android:id="@+id/btnTwo"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
@@ -56,7 +56,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:background="@drawable/mobileapp"
+                android:background="#f44336"
 
                 android:id="@+id/btnThree"
                 android:layout_margin="5dp"
@@ -70,8 +70,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:background="@drawable/mobileapp"
-
+                android:background="#cddc39"
                 android:id="@+id/btnFour"
                 android:layout_margin="5dp"
                 android:layout_weight="1"

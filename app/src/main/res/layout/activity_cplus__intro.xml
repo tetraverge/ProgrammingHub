@@ -15,18 +15,25 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="C++ Programming Introduction">
+
+            </TextView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="C++, as we all know is an extension to C language and was developed by Bjarne Stroustrup at bell labs. C++ is an intermediate-level language, as it comprises a confirmation of both high level and low-level language features. C++ is a statically typed, free form, multiparadigm, compiled general-purpose language.
-
-C++ is an Object Oriented Programming language but is not purely Object Oriented. Its features like Friend and Virtual, violate some of the very important OOPS features, rendering this language unworthy of being called completely Object Oriented. It's a middle-level language.
-
-Benefits of C++ over C Language
-The major difference being the OOPS concept, C++ is an object-oriented language whereas C language is a procedural language. Apart from this, there are many other features of C++ which give this language an upper hand on C language.
-
-Following features of C++ makes it a stronger language than C,">
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:id="@+id/cplusintro">
 
             </TextView>
 

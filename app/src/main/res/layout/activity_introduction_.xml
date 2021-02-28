@@ -22,9 +22,9 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
-
             android:id="@+id/btnOne"
-            android:background="#8e24aa"            android:layout_margin="5dp"
+            android:background="#8e24aa"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:padding="10dp"
             android:text="C \n Programming"

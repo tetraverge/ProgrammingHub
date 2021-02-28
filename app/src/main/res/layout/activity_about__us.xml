@@ -45,21 +45,21 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textColor="@color/black"
             android:text="Syed Adil Ahmed"
             android:gravity="left"
             android:textSize="15dp"></TextView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textColor="@color/black"
             android:text="Md Rumen Husen"
             android:gravity="left"
             android:textSize="15dp"></TextView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textColor="@color/black"
             android:text="Sarwar Rashid"
             android:gravity="left"
             android:textSize="15dp"></TextView>
@@ -67,6 +67,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="For Any inquary Please Let's us know
 Email: programminghub2021@gmail.com"
             android:gravity="center"

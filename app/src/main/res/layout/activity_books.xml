@@ -17,17 +17,22 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:gravity="center"
             android:text="Programming C"></TextView>
 
    <Button
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
+       android:background="@drawable/buttons"
+       android:layout_margin="5dp"
        android:id="@+id/btnone"
        android:text="The Basics Of C Programming"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btntwo"
             android:text="The C Programming Language"></Button>
 
@@ -35,106 +40,147 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:textColor="@color/black"
             android:text="Programming C++"></TextView>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btnthree"
             android:text="C++ Notes For Professionals"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btnfour"
             android:text="Fundamentals of C++ Programming"></Button>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:textColor="@color/black"
             android:text="Programming Python"></TextView>
         <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
         android:id="@+id/btnFive"
         android:text="Django for Beginners"></Button>
         <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
         android:id="@+id/btnsix"
         android:text="Fluent Python"></Button>
         <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
         android:id="@+id/btnseven"
         android:text="Head First Python"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btneight"
             android:text="Introduction to Machine Learning with Python"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btnine"
             android:text="Learn Python 3 the Hard Way"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btnten"
             android:text="Learning Python"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btneleven"
             android:text="Python Cookbook"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btntwleve"
             android:text="Python Crash Course"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btnthirteen"
             android:text="Python for Data Analysis"></Button>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:gravity="center"
+            android:textColor="@color/black"
             android:text="Programming Java"></TextView>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btnfourteen"
             android:text="Effective Java"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btnfifteen"
             android:text="Head First Java"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btnsixteen"
             android:text="Java A Beginner's Guide"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btnseventeen"
             android:text="Java Performance"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btneigteen"
             android:text="Learn Java the Easy Way"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btnninteen"
             android:text="Spring in Action"></Button>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="5dp"
             android:id="@+id/btntwentte"
             android:text="Test Drive"></Button>
 

@@ -14,41 +14,6 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:id="@+id/btncompiler"
-                android:drawableTop="@drawable/compilericon"
-                android:background="#8e24aa"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:text="Compiler"
-                android:textColor="@color/white"
-                android:textSize="20dp"
-                android:textStyle="bold"></Button>
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:background="#ec407a"
-                android:drawableTop="@drawable/quizeicon"
-                android:id="@+id/btnquize"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:text="Quize"
-                android:textColor="@color/white"
-                android:textSize="20dp"
-                android:textStyle="bold"></Button>
-
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -151,12 +116,48 @@
                 android:drawableTop="@drawable/books"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="Books"
+                android:text="Programming Books"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"></Button>
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btncompiler"
+                android:drawableTop="@drawable/compilericon"
+                android:background="#8e24aa"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Compiler"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></Button>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#ec407a"
+                android:drawableTop="@drawable/quizeicon"
+                android:id="@+id/btnquize"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Quiz"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></Button>
+
+        </LinearLayout>
+
 
     </LinearLayout>
 
