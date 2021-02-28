@@ -118,7 +118,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         sharebutton();
         }
         else if (id==R.id.nav_reference){
-
+            Intent intent = new Intent(MainActivity.this, Reference_Activity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
