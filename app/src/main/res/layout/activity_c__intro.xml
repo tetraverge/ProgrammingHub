@@ -41,6 +41,61 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:id="@+id/cintro"
+                android:text="C is a general-purpose high level language that was originally developed by Dennis Ritchie for the Unix operating system. It was first implemented on the Digital Eqquipment Corporation PDP-11 computer in 1972.
+
+The Unix operating system and virtually all Unix applications are written in the C language. C has now become a widely used professional language for various reasons.
+
+Easy to learn
+
+Structured language
+
+It produces efficient programs.
+
+It can handle low-level activities.
+
+It can be compiled on a variety of computers.
+
+Facts about C
+C was invented to write an operating system called UNIX.
+
+C is a successor of B language which was introduced around 1970
+
+The language was formalized in 1988 by the American National Standard Institue (ANSI).
+
+By 1973 UNIX OS almost totally written in C.
+
+Today C is the most widely used System Programming Language.
+
+Most of the state of the art software have been implemented using C
+
+Applications of C Programming
+C was initially used for system development work, particularly the programs that make-up the operating system. C was adopted as a system development language because it produces code that runs nearly as fast as the code written in assembly language. Some examples of the use of C are -
+
+Operating Systems
+
+Language Compilers
+
+Assemblers
+
+Text Editors
+
+Print Spoolers
+
+Network Drivers
+
+Modern Programs
+
+Databases
+
+Language Interpreters
+
+Utilities
+
+Basic Definitions
+break and continue
+The break statement makes program jump out of the innermost enclosing loop (while, do, for or switch statements) explicitly.
+
+The continue statement skips the certain statements inside the loop."
                 android:layout_margin="10dp">
 
             </TextView>

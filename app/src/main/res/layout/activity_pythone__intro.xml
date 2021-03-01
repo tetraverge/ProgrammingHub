@@ -41,6 +41,82 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:textColor="@color/black"
+                android:text="Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language.
+
+Why to Learn Python?
+
+Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.
+Python is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain. I will list down some of the key advantages of learning Python:
+
+Python is Interpreted − Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.
+
+Python is Interactive − You can actually sit at a Python prompt and interact with the interpreter directly to write your programs.
+
+Python is Object-Oriented − Python supports Object-Oriented style or technique of programming that encapsulates code within objects.
+
+Python is a Beginner's Language − Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.
+
+Python Language advantages and applications
+
+Python is a high level, interpreted and general purpose dynamic programming language that focuses on code readability.It has fewer steps when compared to Java and C.It was founded in 1991 by developer Guido Van Rossum.It is used in many organizations as it supports multiple programming paradigms.It also performs automatic memory management.
+Advantages :
+1) Presence of third-party modules
+2) Extensive support libraries(NumPy for numerical calculations, Pandas for data analytics etc)
+3) Open source and community development
+4) Easy to learn
+5) User-friendly data structures
+6) High-level language
+7) Dynamically typed language(No need to mention data type based on value assigned, it takes data type)
+8) Object-oriented language
+9) Portable and Interactive
+10) Portable across Operating systems
+Applications :
+1) GUI based desktop applications(Games, Scientific Applications)
+2) Web frameworks and applications
+3) Enterprise and Business applications
+4) Operating Systems
+5) Language Development
+6) Prototyping
+Organizations using Python :
+1) Google(Components of Google spider and Search Engine)
+2) Yahoo(Maps)
+3) YouTube
+4) Mozilla
+5) Dropbox
+6) Microsoft
+7) Cisco
+8) Spotify
+9) Quora
+
+There are many Python compilers available which you can use to compile and run above mentioned program:
+
+Brython
+
+Nuitka
+
+PyJS
+
+Shed Skin
+
+Skulpt
+
+Transcrypt
+
+WinPython
+
+Overview
+
+Python has five standard Data Types:
+
+Numbers
+
+String
+
+List
+
+Tuple
+
+Dictionary"
                 android:id="@+id/pythonintro">
 
             </TextView>
