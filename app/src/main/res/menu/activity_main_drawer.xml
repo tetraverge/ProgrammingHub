@@ -24,7 +24,7 @@
             android:title="About Us" />
         <item
             android:id="@+id/nav_reference"
-            android:icon="@drawable/referance"
+            android:icon="@drawable/icoreference"
             android:title="Reference" />
 
 

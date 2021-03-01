@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/inputCode"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:padding="5dp"
             android:background="@color/gray"
             android:textSize="20dp">
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/outPutCode"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:padding="5dp"
             android:background="@color/gray"
             android:textSize="20dp">
@@ -71,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/codeDescription"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:padding="5dp"
             android:background="@color/gray"
             android:textSize="20dp">
