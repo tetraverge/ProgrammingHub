@@ -40,7 +40,7 @@
             android:id="@+id/inputCode"
             android:textColor="@color/black"
             android:padding="5dp"
-            android:background="@color/gray"
+            android:background="#95C7B6"
             android:textSize="20dp">
         </TextView>
         <TextView
@@ -56,7 +56,7 @@
             android:id="@+id/outPutCode"
             android:textColor="@color/black"
             android:padding="5dp"
-            android:background="@color/gray"
+            android:background="#95C7B6"
             android:textSize="20dp">
 
         </TextView>
@@ -73,7 +73,7 @@
             android:id="@+id/codeDescription"
             android:textColor="@color/black"
             android:padding="5dp"
-            android:background="@color/gray"
+            android:background="#95C7B6"
             android:textSize="20dp">
 
         </TextView>
