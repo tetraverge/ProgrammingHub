@@ -7,41 +7,41 @@
 
         <item
             android:id="@+id/nav_introduction"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/introduction"
             android:title="Introduction" />
 
         <item
             android:id="@+id/nav_about"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/aboutus"
             android:title="About Us" />
         <item
             android:id="@+id/nav_favourite"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/favourite"
             android:title="Favourite Code" />
 
         <item
             android:id="@+id/nav_about_app"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/aboutapp"
             android:title="About App" />
 
         <item
             android:id="@+id/nav_register"
-            android:icon="@drawable/ic_launcher_background"
+            android:icon="@drawable/login"
             android:title="Login/Register " />
 
         <item
             android:id="@+id/nav_logout"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/logouticon"
             android:title="Logout" />
 
         <item
             android:id="@+id/nav_share"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/shareicon"
             android:title="Share" />
 
         <item
             android:id="@+id/nav_reference"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/referance"
             android:title="Reference" />
 
     </group>

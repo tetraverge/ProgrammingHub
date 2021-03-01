@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(intent);
         }
         else if (view==btnquiz){
-            Intent intent = new Intent(MainActivity.this, Books_Activity.class);
+            Intent intent = new Intent(MainActivity.this, Quiz_Activity.class);
             startActivity(intent);
         }
     }
