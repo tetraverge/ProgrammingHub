@@ -11,16 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:gravity="center"
-            android:textSize="30dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textStyle="bold"
-            android:text="C++ Programming Introduction">
-        </TextView>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -31,12 +21,25 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="C++ Programming Introduction">
+            </TextView>
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="#95C7B6"
                 android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:padding="5dp"
                 android:text="C++, as we all know is an extension to C language and was developed by Bjarne Stroustrup at bell labs. C++ is an intermediate-level language, as it comprises a confirmation of both high level and low-level language features. C++ is a statically typed, free form, multiparadigm, compiled general-purpose language.
 
 C++ is an Object Oriented Programming language but is not purely Object Oriented. Its features like Friend and Virtual, violate some of the very important OOPS features, rendering this language unworthy of being called completely Object Oriented. It's a middle-level language.

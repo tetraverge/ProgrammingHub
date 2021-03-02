@@ -22,6 +22,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#ff22"
             android:id="@+id/codetitle"
             android:textSize="20dp">
 

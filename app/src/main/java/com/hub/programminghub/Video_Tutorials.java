@@ -56,16 +56,16 @@ public class Video_Tutorials extends AppCompatActivity implements View.OnClickLi
             startActivity(browserIntent);
         }
         else if (view==pb) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLgH5QX0i9K3oAZUB2QXR-dZac0c9HNyRa"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLgH5QX0i9K3rz5XqMsTk41_j15_6682BN"));
             startActivity(browserIntent);
         }else if (view==pe) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU"));
             startActivity(browserIntent);
         }else if (view==jb) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("hhttps://youtube.com/playlist?list=PLgH5QX0i9K3rz5XqMsTk41_j15_6682BN"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLgH5QX0i9K3oAZUB2QXR-dZac0c9HNyRa"));
             startActivity(browserIntent);
         }else if (view==je) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/playlist?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK"));
             startActivity(browserIntent);
         }
 
