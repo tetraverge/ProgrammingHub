@@ -7,9 +7,9 @@ package com.hub.programminghub;
 public class Question {
 
     public String questions[] = {
-            "Which is a Programming Language?",
-            "In COMAL language program, after name of procedure parameters must be in?",
-            "Programming language COBOL works best for use in?",
+            "C Language developed at ___?",
+            "C Language developed at ___?",
+            "C programs are converted into machine language with the help of ____.",
             "Can any function call itself?",
             "Who is father of C Language?",
             "For 16-bit compiler allowable range for integer constants is ____ ?"
@@ -17,8 +17,8 @@ public class Question {
     };
 
     public String choices[][] = {
-            {"HTML", "CSS", "Vala", "PHP"},
-            {"Punction Marks", "Back-Slash", "Brackets", "Semi Colon"},
+            {"Bjarne Stroustrup", "Dennis Ritchie", "James A. Gosling", "Dr. E.F. Codd"},
+            {"AT & T’s Bell Laboratories of USA in 1972", "AT & T’s Bell Laboratories of USA in 1970", "Sun Microsystems in 1973", "Semi Colon"},
             {"Siemens Applications", "Student Applications", "Social Applications", "Commercial Applications"},
             {"Yes","No","Compilation Error","Runtime Error"},
             {"“Bjarne Stroustrup”, “Dennis Ritchie”,“James A. Gosling”, “Dr. E.F. Codd”"},
@@ -26,7 +26,7 @@ public class Question {
     };
 
     public String correctAnswer[] = {
-        "PHP",
+        "Dennis Ritchie",
         "Brackets",
         "Commercial Applications",
             "Yes",
