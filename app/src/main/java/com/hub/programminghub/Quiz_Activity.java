@@ -99,6 +99,7 @@ public class Quiz_Activity extends AppCompatActivity implements View.OnClickList
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         startActivity(new Intent(getApplicationContext(), Quiz_Activity.class));
+                        finish();
                     }
                 })
                 .setNegativeButton("Exit", new DialogInterface.OnClickListener() {
