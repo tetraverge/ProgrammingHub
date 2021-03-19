@@ -117,10 +117,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         else if (id==R.id.nav_share){
         sharebutton();
         }
-        else if (id==R.id.nav_reference){
-            Intent intent = new Intent(MainActivity.this, Reference_Activity.class);
-            startActivity(intent);
-        }
+//        else if (id==R.id.nav_reference){
+//            Intent intent = new Intent(MainActivity.this, Reference_Activity.class);
+//            startActivity(intent);
+//        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

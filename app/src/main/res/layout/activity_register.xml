@@ -14,6 +14,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:orientation="vertical"
             android:gravity="center">
             <de.hdodenhof.circleimageview.CircleImageView
@@ -37,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/nameinput"
                 android:layout_margin="10dp"
+                android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                 android:padding="10dp"
                 android:hint="Enter Your Full Name"
                 android:ems="10"
